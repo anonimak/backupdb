@@ -7,7 +7,7 @@ $conn = new Conn;
 $pdo = $conn->db;
 
 // lokasi file yg dibackup dan nama filenya
-$filePath = '/database/backup/'.time().'.sql';
+$filePath = '/backup/database/'.time().'.sql';
 
 // spesifik tabel yang akan di backup
 // 
